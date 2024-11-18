@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e3f2fd;
+}
+
+.groups-header {
+  background: #42a5f5;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.groups-main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-list, .create-group {
+  width: 45%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+button {
+  background: #42a5f5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

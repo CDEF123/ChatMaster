@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatApp - Settings</title>
+  <link rel="stylesheet" href="styles/settings.css">
+</head>
+<body>
+  <header class="settings-header">
+    <h1>User Settings</h1>
+    <nav>
+      <a href="chat.html">Chat</a>
+      <a href="groups.html">Groups</a>
+      <button id="logout">Logout</button>
+    </nav>
+  </header>
+  <main class="settings-main">
+    <h2>Profile</h2>
+    <form id="settings-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" value="" required>
+      
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" value="" required>
+      
+      <button type="submit">Save Changes</button>
+    </form>
+  </main>
+  <script src="scripts/settings.js"></script>
+</body>
+</html>
